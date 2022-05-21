@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="expenses-chart-component-main">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/expenses-chart-component-main.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

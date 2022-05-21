@@ -1,0 +1,6 @@
+.balanceContainer {
+  @include style-main-containers(1em, 11px);
+
+  background-color: $color-primary-red;
+  color: $color-pale-orange;
+}

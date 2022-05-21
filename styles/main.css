@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: hsl(27deg, 66%, 92%);
+}
+
+main {
+  min-width: 375px;
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.split--alignEnd {
+  align-items: flex-end;
+}
+.split .splitRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 17px;
+}
+
+.smallText {
+  color: hsl(28deg, 10%, 53%);
+  font-size: 14px;
+  margin-bottom: 0.3em;
+}
+.smallText--light {
+  color: hsl(33deg, 100%, 98%);
+}
+
+.balanceContainer {
+  padding: 1em;
+  margin: 0 1em 1em 1em;
+  border-radius: 11px;
+  background-color: hsl(10deg, 79%, 65%);
+  color: hsl(33deg, 100%, 98%);
+}
+
+.detailContainer {
+  padding: 1em;
+  margin: 0 1em 1em 1em;
+  border-radius: 11px;
+  background-color: hsl(33deg, 100%, 98%);
+  color: hsl(25deg, 47%, 15%);
+}
+.detailContainer__separator {
+  border-top: 2px hsl(27deg, 66%, 92%) solid;
+  margin: 1.3em 0;
+}
+.detailContainer__chart {
+  height: 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: hsl(28deg, 10%, 53%);
+}
+.detailContainer__chart .barContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.detailContainer__chart .details-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.detailContainer__chart .details {
+  display: none;
+  position: absolute;
+  top: -3rem;
+  background-color: hsl(25deg, 47%, 15%);
+  color: hsl(33deg, 100%, 98%);
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+.detailContainer__chart .bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(10deg, 79%, 65%);
+  width: 80%;
+  border-radius: 5px;
+}
+.detailContainer__chart .bar--active {
+  background-color: hsl(186deg, 34%, 60%);
+}
+.detailContainer__chart .bar--lighten {
+  opacity: 20%;
+}
+.detailContainer__chart .smallText {
+  margin-top: 1em;
+}
+
+/*# sourceMappingURL=main.css.map */
